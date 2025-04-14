@@ -1,0 +1,75 @@
+{
+    // editor
+    "editor.formatOnSave": true,
+    // language specific
+    "[markdown]": {
+        "editor.wordWrap": "on"
+    },
+    "[yaml]": {
+        "editor.defaultFormatter": "redhat.vscode-yaml"
+    },
+    "[jsonc]": {
+        "editor.defaultFormatter": "vscode.json-language-features"
+    },
+    "[python]": {
+        "editor.defaultFormatter": "charliermarsh.ruff",
+        "editor.codeActionsOnSave": {
+            "source.fixAll": "explicit",
+            "source.organizeImports": "explicit"
+        }
+    },
+    "python.analysis.typeCheckingMode": "basic",
+    // git
+    "git.autofetch": true,
+    // todo-tree
+    "todo-tree.general.tags": [
+        "BUG:",
+        "HACK:",
+        "FIXME:",
+        "TODO:",
+        "XXX:",
+        "[ ]",
+        "[x]"
+    ],
+    "todo-tree.highlights.enabled": true,
+    "todo-tree.highlights.useColourScheme": true,
+    "todo-tree.highlights.highlightDelay": 0,
+    "todo-tree.highlights.backgroundColourScheme": [
+        "red",
+        "orange",
+        "deeppink",
+        "goldenrod",
+        "blue",
+        "indigo",
+        "violet"
+    ],
+    "todo-tree.highlights.foregroundColourScheme": [
+        "white",
+        "black",
+        "white",
+        "white",
+        "white",
+        "white",
+        "black"
+    ],
+    "todo-tree.filtering.excludeGlobs": [
+        "**/node_modules/*/**",
+        "**/static/admin/*/**",
+        "**/static/gis/*/**"
+    ],
+    // cSpell
+    "cSpell.words": [
+        "apiadmin",
+        "asgiref",
+        "dotenv",
+        "isready",
+        "lynuxtek",
+        "mydatabase",
+        "pipenv",
+        "precipi",
+        "pytz",
+        "supergraph",
+        "uvicorn",
+        "Youbike"
+    ],
+}

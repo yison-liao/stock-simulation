@@ -1,0 +1,27 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+pandas = "*"
+requests = "*"
+bs4 = "*"
+python-dotenv = "*"
+numpy = "==1.*"
+jupyter = "*"
+seaborn = "*"
+scikit-learn = "*"
+keras = "*"
+tensorflow = "*"
+lxml = "*"
+html5lib = "*"
+twstock = "*"
+yfinance = "*"
+psycopg2-binary = "*"
+sqlalchemy = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.11"
